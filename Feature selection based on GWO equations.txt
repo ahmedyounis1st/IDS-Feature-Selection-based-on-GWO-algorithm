@@ -1,0 +1,25 @@
+W(iter+1) = P(iter) − A * Di
+
+Di = | C * P(t) − W(t) |
+
+A = 2 b * r1 − b
+C = 2 r2
+r1, r2 random vectors between [0,1]
+
+W(iter+1) = (W1+W2+W3) / 3 
+W1 = | Wα − A1 * Diα |
+W2 = | Wβ − A2 * Diβ |
+W3 = | Wδ − A3 * Diδ |
+
+Diα = |C1 * Wα − W|
+Diβ = |C2 * Wβ − W|
+Diβ = |C3 * Wβ − W|
+
+b = 2 − iter*(2 / MAXIter)
+
+
+if n = 50
+then 50 wolves will be created 
+each wolf has attributes position
+the fitness values which are attributes values
+
